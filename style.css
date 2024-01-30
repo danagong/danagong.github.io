@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,200;1,6..72,300&display=swap');
+
+body {
+    background:  #fdfbe7;
+}
+
+.row-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+div.outer{
+    margin: 80px;
+    margin-left: 150px;
+    margin-right:150px;
+    padding: 50px;
+    border: 10px solid  #9c2b21;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Newsreader', serif;
+    font-weight: 600pt;
+}
+
+h3{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+}
+h4{
+    font-size: 20px;
+    text-align: left;
+}
+p{
+    font-size: 20px;
+}
+.paragraph-link{
+    color: black;
+}
+.paragraph-link:link { 
+    text-decoration: none; 
+    font-size: 20px;
+  } 
+  
+.paragraph-link:hover {
+    text-decoration: underline;
+}
+
+div.work{
+    width: 700px;
+    padding: 30px;
+}
+
+div.work-details{
+    padding-top: 100px;
+    width: 500px;
+    float: left;
+    text-align: left;
+}
+
+.rectangle {
+    width: 200px;
+    height: 10px;
+    background-color: #9c2b21;
+    align-items: right;
+    }
+
+div.other{
+        width: 700px;
+        padding: 30px;
+    }
+
+ul{
+    font-size: 20px;
+}
